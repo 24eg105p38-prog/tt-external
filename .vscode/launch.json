@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot: EventSystemApplication",
+      "request": "launch",
+      "mainClass": "com.college.events.EventSystemApplication",
+      "projectName": "college-event-system-backend",
+      "cwd": "${workspaceFolder}/backend"
+    }
+  ]
+}

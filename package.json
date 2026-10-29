@@ -1,0 +1,19 @@
+{
+  "name": "tt-external-college-event-system",
+  "version": "1.0.0",
+  "description": "TT External Project - College Event Registration System (React.js + Spring Boot + H2 Database)",
+  "scripts": {
+    "start": "bash start.sh",
+    "backend": "cd backend && mvn spring-boot:run -o",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build && cd ../backend && mvn compile -o"
+  },
+  "keywords": [
+    "college-events",
+    "spring-boot",
+    "react",
+    "h2-database"
+  ],
+  "author": "TT External Student",
+  "license": "MIT"
+}
